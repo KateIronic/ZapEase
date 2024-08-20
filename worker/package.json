@@ -1,0 +1,24 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "@solana/web3.js": "^1.95.2",
+    "bs58": "^6.0.0",
+    "kafkajs": "^2.2.4",
+    "nodemailer": "^6.9.14",
+    "prisma": "^5.17.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15"
+  }
+}
